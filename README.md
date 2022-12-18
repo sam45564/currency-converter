@@ -47,7 +47,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 Install MySQL server on your machine ane make sure that it is running without any errors. Once that is done, create a database with name `currency_converter`. 
 After that, run the following command to apply migrations:
 
-  $ npm run migrate
+    $ npm run migrate
 
 ## Running the project
 
