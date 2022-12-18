@@ -1,0 +1,36 @@
+{
+  "name": "currency-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "sequelize db:migrate",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam45564/currency-converter.git"
+  },
+  "keywords": [],
+  "author": "Samsul Hoque Choudhury <sam45564@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.11.1",
+    "axios": "^1.2.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.3.0",
+    "path": "^0.12.7",
+    "sequelize": "^6.27.0",
+    "sequelize-cli": "^6.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
